@@ -1,0 +1,8 @@
+Difference betwand HTTP1 and HTTP2
+    1.	http1 loads the webpage very slower. It loads the webpage one by one.
+          In this any interrupt occurred it automatically affects the other resources. But in http2 one plug in is used to connect all the resources so the  interrupt will the affect all the resources.
+    2.	In general the servers only serves the service when the client asks for it.
+          In some cases there are any problems to serve with the device the user cannot ask the server to serve for thousand times. So that in http2 the server automatically serve the device without the user asked for it.
+    3.	Small files load quickly than a larger one. So both the http1 and http2 
+          are decided to compress the http. However the http2 uses the modern compression technique to compress the files so that the webpages are loaded very faster. 
+ 
